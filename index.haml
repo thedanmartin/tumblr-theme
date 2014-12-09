@@ -18,7 +18,7 @@
             %a{href:"{Permalink}"} {Title}
         {/block:Title}
         .content {Body}
-        %footer
+        %footer#postfooter
           %ul
             %li
               %a{href:"{Permalink}"} Post Permalink
@@ -51,6 +51,6 @@
           {block:Caption}{Caption}{/block:Caption}
       {/block:Photo}
       {/block:Posts}
-    %footer#footer
-      %small
+    %footer#blogfooter
+      %p
         %a{href:"{RSS}"} RSS Feed
