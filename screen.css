@@ -1,0 +1,180 @@
+/* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+
+html {
+
+}
+
+p {
+
+  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+  font-size: 1.175em;
+  line-height: 1.4em;
+  margin-bottom: .5em;
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-top: .5em;
+
+}
+
+#myinfo p {
+
+  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+  font-size: 1.5em;
+  line-height: 1em;
+
+}
+
+h1, h2, h3, h4, h5  {
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+
+}
+
+h1  {
+
+  font-size: 1.3em;
+  margin-left: 1em;
+  font-style: bold;
+
+}
+
+h2  {
+
+  font-style: bold;
+  font-size: 2em;
+  margin-bottom: .5em;
+  margin-left: .5em;
+  margin-right: .5em;
+
+}
+
+h3  {
+
+  color: #003366;
+  font-size: 1.5em;
+  font-style: italic;
+
+}
+
+h4  {
+
+  font-size: 1.125em;
+  margin-left: .5em;
+
+}
+
+h5  {
+
+  font-size: 1.125em;
+  margin-left: 1em;
+
+}
+
+a {
+
+  color: #003366; /* dark blue */
+  text-decoration: none;
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+
+}
+
+header {
+
+  color: #FFFFFF;
+  background-color: #003366;
+
+}
+
+header a  {
+
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+
+header a:hover {
+
+  text-decoration: none;
+
+}
+
+footer {
+
+  margin-bottom: 0em;
+  background-color: #CCCC99;
+  font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  font-style: italic;
+
+}
+
+#postfooter {
+
+  background-color: pink;
+
+}
+
+#blogfooter {
+
+}
+
+nav {
+
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  color: #000000;
+  background-color: #CCCCCC;
+
+}
+
+nav a:hover {
+
+  text-decoration: none;
+  background-color: #FFFFFF;
+
+}
+
+nav a {
+
+  display: block;
+
+}
+
+
+@media screen and (min-width: 31.25em) {
+
+  nav  {
+    width: 15.625em;
+    position: absolute;
+    top: 1.6em;
+  }
+
+  section {
+    margin-left: 16em;
+    top: 1.5em;
+  }
+
+}
+
+@media screen and (min-width: 56.25em) {
+
+  body  {
+    margin: 0 auto;
+    width: 56.25em;
+  }
+
+  nav  {
+    margin: 0 auto;
+    width: 15.625em;
+    top: 1.6em;
+  }
+
+}
