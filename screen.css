@@ -105,6 +105,10 @@ header a:hover {
 
 }
 
+li  {
+
+}
+
 footer {
 
   margin-bottom: 0em;
@@ -118,11 +122,13 @@ footer {
 
 #postfooter {
 
-  background-color: pink;
+  background-color: #FFFFFF;
+  font-size: .813em;
 
 }
 
 #blogfooter {
+
 
 }
 
