@@ -20,7 +20,7 @@
         %footer#postfooter
           %ul
             %li
-              %a{href:"{Permalink}"} Post Permalink
+              %a{href:"{Permalink}"} {block:Date}{DayOfWeek}, {Month} {DayOfMonth}, {Year}{/block:Date}
             {block:HasTags}
             %li Tagged
               %ul
@@ -35,12 +35,36 @@
           {Quote}
         %p#quotesource
           {block:Source}{Source}{/block:Source}
+        %footer#postfooter
+          %ul
+            %li
+              %a{href:"{Permalink}"} {block:Date}{DayOfWeek}, {Month} {DayOfMonth}, {Year}{/block:Date}
+            {block:HasTags}
+            %li Tagged
+              %ul
+                {block:Tags}
+                %li
+                  %a{href:"{TagURL}"} {Tag}
+                {/block:Tags}
+            {/block:HasTags}
       {/block:Quote}
       {block:Link}
         %h2
           %a{href:"{URL}"} {Name}
         %p
           {block:Description}{Description}{/block:Description}
+        %footer#postfooter
+          %ul
+            %li
+              %a{href:"{Permalink}"} {block:Date}{DayOfWeek}, {Month} {DayOfMonth}, {Year}{/block:Date}
+            {block:HasTags}
+            %li Tagged
+              %ul
+                {block:Tags}
+                %li
+                  %a{href:"{TagURL}"} {Tag}
+                {/block:Tags}
+            {/block:HasTags}
       {/block:Link}
       {block:Photo}
         {LinkOpenTag}
@@ -48,6 +72,18 @@
         {LinkCloseTag}
         %p
           {block:Caption}{Caption}{/block:Caption}
+        %footer#postfooter
+          %ul
+            %li
+              %a{href:"{Permalink}"} {block:Date}{DayOfWeek}, {Month} {DayOfMonth}, {Year}{/block:Date}
+            {block:HasTags}
+            %li Tagged
+              %ul
+                {block:Tags}
+                %li
+                  %a{href:"{TagURL}"} {Tag}
+                {/block:Tags}
+            {/block:HasTags}
       {/block:Photo}
       {/block:Posts}
     %footer#blogfooter
