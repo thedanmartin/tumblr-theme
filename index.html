@@ -23,7 +23,7 @@
         <footer id='postfooter'>
           <ul>
             <li>
-              <a href='{Permalink}'>Post Permalink</a>
+              <a href='{Permalink}'>{block:Date}{DayOfWeek}, {Month} {DayOfMonth}, {Year}{/block:Date}</a>
             </li>
             {block:HasTags}
             <li>Tagged
@@ -47,6 +47,24 @@
         <p id='quotesource'>
           {block:Source}{Source}{/block:Source}
         </p>
+        <footer id='postfooter'>
+          <ul>
+            <li>
+              <a href='{Permalink}'>{block:Date}{DayOfWeek}, {Month} {DayOfMonth}, {Year}{/block:Date}</a>
+            </li>
+            {block:HasTags}
+            <li>Tagged
+              <ul>
+                {block:Tags}
+                <li>
+                  <a href='{TagURL}'>{Tag}</a>
+                </li>
+                {/block:Tags}
+              </ul>
+            </li>
+            {/block:HasTags}
+          </ul>
+        </footer>
       {/block:Quote}
       {block:Link}
         <h2>
@@ -55,6 +73,24 @@
         <p>
           {block:Description}{Description}{/block:Description}
         </p>
+        <footer id='postfooter'>
+          <ul>
+            <li>
+              <a href='{Permalink}'>{block:Date}{DayOfWeek}, {Month} {DayOfMonth}, {Year}{/block:Date}</a>
+            </li>
+            {block:HasTags}
+            <li>Tagged
+              <ul>
+                {block:Tags}
+                <li>
+                  <a href='{TagURL}'>{Tag}</a>
+                </li>
+                {/block:Tags}
+              </ul>
+            </li>
+            {/block:HasTags}
+          </ul>
+        </footer>
       {/block:Link}
       {block:Photo}
         {LinkOpenTag}
@@ -63,6 +99,24 @@
         <p>
           {block:Caption}{Caption}{/block:Caption}
         </p>
+        <footer id='postfooter'>
+          <ul>
+            <li>
+              <a href='{Permalink}'>{block:Date}{DayOfWeek}, {Month} {DayOfMonth}, {Year}{/block:Date}</a>
+            </li>
+            {block:HasTags}
+            <li>Tagged
+              <ul>
+                {block:Tags}
+                <li>
+                  <a href='{TagURL}'>{Tag}</a>
+                </li>
+                {/block:Tags}
+              </ul>
+            </li>
+            {/block:HasTags}
+          </ul>
+        </footer>
       {/block:Photo}
       {/block:Posts}
     </main>
