@@ -133,7 +133,28 @@ footer {
 
 }
 
-#postfooter {
+#textpostfooter {
+
+  background-color: #FFFFFF;
+  font-size: .813em;
+
+}
+
+#quotepostfooter {
+
+  background-color: #FFFFFF;
+  font-size: .813em;
+
+}
+
+#linkpostfooter {
+
+  background-color: #FFFFFF;
+  font-size: .813em;
+
+}
+
+#photopostfooter {
 
   background-color: #FFFFFF;
   font-size: .813em;
